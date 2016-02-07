@@ -1,0 +1,13 @@
+group 'cworks.domain'
+version '1.0.0'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testCompile('junit:junit:4.11');
+}
